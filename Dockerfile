@@ -1,3 +1,9 @@
+ARG PGHOST
+ARG PGPORT
+ARG PGUSER
+ARG PGPASSWORD
+ARG PGDATABASE
+
 FROM aulneau/stacks-blockchain-api-all:latest
 
 EXPOSE 20443
