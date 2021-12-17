@@ -1,4 +1,4 @@
-FROM wileyj/stacks-blockchain-api:railway
+FROM wileyj/stacks-blockchain-api:railway-new
 ARG PGHOST=postgres
 ARG PGPORT=5432 
 ARG PGUSER=postgres
